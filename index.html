@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Content with Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg"></div>
+    <img src="logo3.png">
+    
+    
+        <div id="parasaur" class="box" onclick="openPopup('popup-parasaur')"><h2>PARASAUR</h2></div>
+        <div id="pachy" class="box" onclick="openPopup('popup-pachy')"><h2>PACHY</h2></div>
+        <div id="Baryonyx" class="box" onclick="openPopup('popup-baryonyx')"><h2>BARYONYX</h2></div>
+        <div id="pegomastax" class="box" onclick="openPopup('popup-pegomastax')"><h2>PEGOMASTAX</h2></div>
+        <div id="arthropluera" class="box" onclick="openPopup('popup-arthropluera')"><h2>ARTHROPLUERA</h2></div>
+        <div id="mosasaurus" class="box" onclick="openPopup('popup-mosasaurus')"><h2>MOSASAURUS</h2></div>
+        <div id="rex" class="box" onclick="openPopup('popup-rex')"><h2>REX</h2></div>
+    
+
+   
+    <div id="popup-baryonyx" class="popup">
+        <div class="popup-content">
+
+
+            <div class="sound-button-suara1">
+                <button id="soundButton1" class="sound-button" onclick="toggleSound(1)"></button>
+            </div>
+
+            <button id="closePopup" class="close-btn" onclick="closePopup('popup-baryonyx')">&times;</button>
+        
+            <audio id="audioPlayer1" src="soundbaryonyx.mp3"></audio>
+        
+
+        <div class="latar">
+            <img src="bg1..png">
+            <div class="teks">
+           <p>
+            <p>
+                Baryonyx di Ark: Survival Evolved adalah dinosaurus karnivora semi-akuatik yang sangat berguna di darat dan air. Dengan gaya bertarung yang gesit dan kemampuannya yang unik, Baryonyx sering menjadi salah satu dinosaurus pilihan untuk eksplorasi di wilayah perairan dan pertempuran jarak dekat. Berikut adalah penjelasan tentang Baryonyx dalam game Ark:
+                <br><br>
+                1. Habitat
+                Baryonyx biasanya ditemukan di daerah yang dekat dengan air, seperti sungai, pantai, atau rawa. Mereka sering terlihat berenang atau berburu mangsa di tepi air.
+                <br><br>
+                2. Kemampuan
+                Amphibious (Semi-Akuatik): Baryonyx sangat mahir bergerak baik di darat maupun di air. Mereka memiliki stamina yang baik saat berenang, menjadikannya salah satu dinosaurus yang ideal untuk eksplorasi bawah air, terutama di sungai dan danau.
+                Tail Spin Attack (Serangan Putaran Ekor): Saat berada di air, Baryonyx memiliki serangan spesial dengan putaran ekor yang bisa membuat musuh di sekitar pingsan atau terstun. Serangan ini sangat efektif melawan makhluk air kecil hingga menengah, seperti Ikan atau Megapiranha.
+                Tidak Kehilangan Stamina di Air: Salah satu kelebihan utama Baryonyx adalah mereka tidak kehabisan stamina saat berenang. Hal ini membuat mereka ideal untuk perjalanan air yang panjang, baik untuk eksplorasi maupun untuk berburu.
+                <br><br>
+                3. Cara Menjinakkan
+                Dijinakkan secara tradisional: Seperti banyak dinosaurus karnivora lainnya, Baryonyx bisa dijinakkan dengan membuat mereka pingsan terlebih dahulu menggunakan panah bius, bola bius, atau jebakan. Setelah pingsan, pemain bisa memberinya daging ikan (terutama ikan prime) untuk mempercepat proses penjinakan.
+                Makanan Favorit: Baryonyx lebih menyukai ikan dibandingkan daging biasa, jadi untuk menjinakkan dengan lebih cepat, ikan prime atau daging ikan berkualitas lebih baik adalah pilihan yang ideal.
+               <br><br>
+                4. Fungsi dalam Game
+                Baryonyx adalah dinosaurus yang serbaguna dan bisa digunakan dalam berbagai situasi:
+                
+                Eksplorasi Air: Baryonyx sangat berguna untuk eksplorasi wilayah perairan dangkal, sungai, dan rawa. Karena mereka bisa bergerak dengan mudah di air, mereka dapat menjelajahi area-area ini dengan aman dan cepat.
+                Pertarungan di Air: Kemampuan putaran ekornya sangat mematikan di dalam air. Serangan ini bisa membuat lawan terstun, memberi keuntungan besar saat menghadapi musuh di dalam air.
+                Berburu Ikan: Baryonyx bisa sangat efektif dalam berburu ikan, terutama ikan besar atau kelompok Megapiranha, yang sering menyerang dalam jumlah besar di sungai atau rawa.
+                <br><br>                      
+                5. Strategi dalam Pertarungan
+                Menggunakan Stun Attack di Air: Saat bertarung di dalam air, serangan ekor Baryonyx dapat menghentikan musuh sementara, membuatnya tidak bisa menyerang balik. Ini adalah strategi ampuh saat berhadapan dengan makhluk air yang agresif.
+                Speed dan Ketangkasan: Di darat, Baryonyx cukup gesit dan bisa digunakan untuk menghindari serangan dari predator yang lebih besar atau untuk menyerang musuh dengan cepat.
+                Menghindari Pertarungan Darat Besar: Meskipun cukup kuat di darat, Baryonyx tidak sekuat beberapa dinosaurus karnivora besar seperti T-Rex atau Spino, jadi lebih baik menghindari pertempuran darat besar jika memungkinkan.
+                <br><br>
+                6. Kegunaan Setelah Dijinakkan
+                Eksplorasi Sungai dan Rawa: Baryonyx sangat cocok untuk menjelajahi wilayah-wilayah berair dangkal yang mungkin sulit diakses oleh dinosaurus lain. Dengan kemampuan berenangnya yang kuat, dia juga bisa digunakan untuk menjelajahi gua bawah air yang tidak terlalu dalam.
+                Berburu dan Mengumpulkan Ikan: Karena lebih menyukai ikan sebagai makanan, Baryonyx sangat bagus untuk berburu ikan dan mengumpulkan daging ikan, yang bisa menjadi sumber makanan yang bagus untuk penjinakan dinosaurus lain atau untuk bertahan hidup.
+                Transportasi Cepat: Di darat maupun di air, Baryonyx adalah dinosaurus yang cukup cepat. Ia bisa menjadi kendaraan yang baik untuk pemain yang suka bergerak cepat dari satu lokasi ke lokasi lainnya.
+                <br><br>
+                7. Keunggulan dan Kekurangan
+                <br><br>
+                Keunggulan:
+                Serangan ekor di air sangat mematikan.
+                Tidak kehilangan stamina saat berenang.
+                Gesit dan cepat, baik di air maupun di darat.
+                Kekurangan:
+                Kurang efektif dalam pertarungan melawan dinosaurus besar di darat.
+                Lebih suka daging ikan, sehingga sedikit lebih sulit untuk memberi makan saat jinak.
+            </p>
+           </p>
+        </div>>
+
+       <div class="dino">
+            <img src="Baryonyx_g.png" alt="Baryonyx">
+       </div>
+
+        <div class="logo">
+            <img src="logo.baryonyx.webp" alt="Logo Baryonyx">
+            <div class="teks-logo">BARYONYX</div>
+        </div>
+
+        <div class="box-loading">
+        <div class="statisik">STATISIK BARYONYX</div>
+            <div class="loading-bar-wrapper">
+                <span class="loading-text">300</span>  
+                <div class="loading-bar bar-300 bar-green"></div>
+            </div>
+            <div class="loading-bar-wrapper">
+                <span class="loading-text">400</span>
+                <div class="loading-bar bar-400 bar-blue"></div>
+            </div>
+            <div class="loading-bar-wrapper">
+                <span class="loading-text">300</span>
+                <div class="loading-bar bar-300 bar-red"></div>
+            </div>
+            <div class="loading-bar-wrapper">
+                <span class="loading-text">350</span>
+                <div class="loading-bar bar-350 bar-orange"></div>
+            </div>
+            
+            <div class="sidebox2">
+                <div class="boxstatisik">
+                    <div class="kotak" style="background-color:#013c03;;"></div>
+                    <p>Health</p>
+                </div>
+                <div class="boxstatisik">
+                    <div class="kotak" style="background-color: #003561 ;"></div>
+                    <p>Devend</p>
+                </div>
+              
+                <div class="boxstatisik">
+                    <div class="kotak" style="background-color:  #cc0e00;"></div>
+                    <p>Attack</p>
+                </div>
+                <div class="boxstatisik">
+                    <div class="kotak" style="background-color:#fff700 ;"></div>
+                    <p>Speed</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+            <div class="habitat">
+                <div class="peta">
+                <img src="petabaryonyx1.png" alt="">
+                <img src="petabaryonyx2.png" alt="">
+                </div> 
+                <div class="peta">
+                    <img src="petabaryonyx3.png" alt="">
+                    <img src="petabaryonyx4.png" alt="">
+                </div>
+                <div class="tekshabitat">
+                    <h3>HABITAT BARYONYX</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-pachy" class="popup">
+        <div class="popup-content">
+
+            <button id="closePopup" class="close-btn" onclick="closePopup('popup-pachy')">&times;</button>
+
+            <div class="sound-button-suara2">
+                <button id="soundButton2" class="sound-button" onclick="toggleSound(2)"></button>
+            </div>    
+
+            <audio id="audioPlayer2" src="soundpachy.mp3"></audio>
+           
+            <div class="latar">
+                <img src="bg1..png">
+                <div class="teks">
+                    <p>
+                    Pachy, adalah dinosaurus kecil berjenis herbivora yang dikenal dengan kepalanya yang keras, yang memungkinkannya untuk melakukan serangan kepala yang kuat. Berikut penjelasannya:
+                    <br><br>
+                    1. Habitat
+                    Pachy biasanya ditemukan di daerah yang lebih subur dan berumput. Mereka sering berkeliaran di dataran terbuka atau di pinggiran hutan.
+                    <br><br>
+                    2. Kemampuan
+                    Charge Attack (Serangan Kepala): Kemampuan utama Pachy adalah serangan kepala yang kuat. Serangan ini tidak hanya memberikan kerusakan tetapi juga bisa menyebabkan makhluk lain menjadi pingsan. Ini menjadikannya pilihan bagus untuk menjinakkan hewan lain.
+                    Stunning Effect: Serangan kepala Pachy memberikan efek "stun" (melumpuhkan) pada musuh, yang bisa memperlambat atau mempengaruhi kemampuan bergerak mereka.
+                    Speed Boost: Saat Pachy sedang berlari atau menyerang dengan kecepatan tinggi, ia mendapat peningkatan kecepatan sementara, yang bisa berguna untuk melarikan diri dari bahaya atau mengejar musuh.
+                    <br><br>
+                    3. Cara Menjinakkan
+                    Untuk menjinakkan Pachy, pemain harus memanfaatkan metode pingsan tradisional, seperti menggunakan panah bius atau bola bius untuk membuatnya tidak sadar, kemudian memberi mereka buah-buahan seperti Mejoberries atau sayuran untuk mempercepat proses jinak.
+                    Pachy merupakan salah satu dinosaurus jinak yang relatif mudah karena ukurannya yang kecil dan tidak terlalu agresif.
+                    <br><br>
+                    4. Fungsi dalam Game
+                    Pachy memiliki beberapa kegunaan unik yang membuatnya berguna dalam situasi tertentu:
+                    <br><br>
+                    Senjata Pingsan: Pachy sering digunakan untuk menjinakkan makhluk lain karena efek serangan kepala yang bisa memunculkan torpor (pingsan). Dengan menggunakan Pachy, kamu bisa membuat makhluk lain pingsan tanpa terlalu banyak kerusakan.
+                    Mount Cepat dan Agresif: Meskipun tidak secepat dinosaurus pelari seperti Raptor, Pachy tetap merupakan tunggangan yang cepat, terutama saat menggunakan kemampuan charge-nya.
+                   <br><br>
+                    5. Strategi dalam Pertarungan
+                    Menghadapi Makhluk Lebih Kecil: Pachy lebih efektif melawan makhluk yang lebih kecil atau yang pingsan dengan cepat akibat serangan kepala. Namun, melawan predator besar seperti T-Rex, Pachy bukan pilihan yang ideal.
+                    Menciptakan Jarak: Saat bertarung, pemain bisa memanfaatkan kecepatan serangan charge Pachy untuk menjaga jarak dari musuh.
+                    <br><br>
+                    6. Kegunaan Setelah Dijinakkan
+                    Setelah dijinakkan, Pachy dapat digunakan sebagai dinosaurus serbaguna:
+                        <br><br>
+                    Membantu Menjinakkan Makhluk Lain: Dengan serangan kepalanya yang bisa menambah torpor, Pachy bisa membantu menjinakkan makhluk lain tanpa terlalu melukai mereka.
+                    Eksplorasi Cepat: Pachy juga bisa menjadi tunggangan yang cukup cepat untuk eksplorasi wilayah kecil dan berbatu.
+                    </p>
+               
+             </div>
+    
+           <div class="dino">
+                <div class="gambarpachy">
+                <img src="pachy_g.png" alt="Baryonyx">
+                </div>
+           </div>
+    
+            <div class="logo">
+                <img src="logoPachy.webp" alt="Logo Baryonyx">
+                <div class="teks-logo">PACHY</div>
+            </div>
+    
+            <div class="box-loading">
+            <div class="statisik">STATISIK PACHY</div>
+                <div class="loading-bar-wrapper">
+                    <span class="loading-text">300</span>  
+                    <div class="loading-bar bar-300 bar-green"></div>
+                </div>
+                <div class="loading-bar-wrapper">
+                    <span class="loading-text">400</span>
+                    <div class="loading-bar bar-400 bar-blue"></div>
+                </div>
+                <div class="loading-bar-wrapper">
+                    <span class="loading-text">300</span>
+                    <div class="loading-bar bar-300 bar-red"></div>
+                </div>
+                <div class="loading-bar-wrapper">
+                    <span class="loading-text">350</span>
+                    <div class="loading-bar bar-350 bar-orange"></div>
+                </div>
+                
+                <div class="sidebox2">
+                    <div class="boxstatisik">
+                        <div class="kotak" style="background-color:#013c03;;"></div>
+                        <p>Health</p>
+                    </div>
+                    <div class="boxstatisik">
+                        <div class="kotak" style="background-color: #003561 ;"></div>
+                        <p>Devend</p>
+                    </div>
+                  
+                    <div class="boxstatisik">
+                        <div class="kotak" style="background-color:  #cc0e00;"></div>
+                        <p>Attack</p>
+                    </div>
+                    <div class="boxstatisik">
+                        <div class="kotak" style="background-color:#fff700 ;"></div>
+                        <p>Speed</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+                <div class="habitat">
+                    <div class="peta">
+                    <img src="petapachy1.png" alt="">
+                    <img src="petapachy2.png" alt="">
+                    </div> 
+                    <div class="peta">
+                        <img src="petapachy3.png" alt="">
+                        <img src="peta4pachy.png" alt="">
+                    </div>
+                    <div class="tekshabitat">
+                        <h3>HABITAT PACHY</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup-parasaur" class="popup">
+            <div class="popup-content">
+            
+                <div class="sound-button-suara3">
+                    <button id="soundButton3" class="sound-button" onclick="toggleSound(3)"></button>
+                </div>    
+   
+                <button id="closePopup" class="close-btn" onclick="closePopup('popup-parasaur')">&times;</button>
+
+                <audio id="audioPlayer3" src="soundparasaurus.mp3"></audio>
+               
+                <div class="latar">
+                    <img src="bg1..png">
+                    <div class="teks">
+                        <p>
+                            Parasaur (Parasaurolophus) dalam Ark: Survival Evolved adalah dinosaurus herbivora yang sangat umum ditemui dan salah satu dinosaurus pertama yang mudah dijinakkan oleh pemain. Meskipun tidak kuat dalam pertempuran, Parasaur memiliki beberapa kemampuan unik yang membuatnya berguna untuk eksplorasi dan deteksi ancaman di sekitar.
+                        <br><br>
+                        Berikut adalah penjelasan lengkap tentang Parasaur di Ark: Survival Evolved:
+                        <br><br>
+                        1. Habitat
+                        <br><br>
+                        Parasaur dapat ditemukan hampir di seluruh wilayah Ark, terutama di daerah dataran terbuka, hutan, dan dekat sumber air. Mereka biasanya mengembara dalam kelompok kecil dan cenderung menghindari predator.
+                        <br><br>
+                        2. Kemampuan
+                        <br><br>
+                        Radar Musuh (Enemy Detection): Parasaur memiliki kemampuan mendeteksi ancaman di sekitar mereka, baik pemain atau dinosaurus musuh. Kemampuan ini sangat berguna, terutama saat pemain berada di wilayah yang berbahaya karena Parasaur akan memberi tanda atau peringatan jika ada ancaman yang mendekat.
+                        Alarm Mode (Mode Alarm): Pemain bisa mengaktifkan mode alarm pada Parasaur. Saat mode ini aktif, Parasaur akan secara otomatis memberi peringatan ketika ada makhluk musuh atau pemain lain yang memasuki radius deteksinya. Ini sangat berguna untuk menjaga basis atau saat berburu.
+                        Ability to Scare Off Small Creatures (Mengusir Makhluk Kecil): Parasaur dapat mengeluarkan suara keras untuk menakut-nakuti makhluk kecil di sekitarnya seperti Dilo atau Pegomastax, memberikan pemain waktu untuk melarikan diri atau menyiapkan strategi.
+                        <br><br>
+                        3. Cara Menjinakkan
+                        <br><br>
+                        Metode Tradisional: Parasaur sangat mudah dijinakkan dengan metode tradisional, yaitu dengan menembakkan panah bius atau menggunakan bola bius, kemudian memberi mereka beri-berian seperti Mejoberries atau buah lainnya.
+                        Menggunakan Bola Jaring: Pemain bisa menjebak Parasaur dengan menggunakan bola jaring (bola yang dilempar untuk menjebak dinosaurus kecil hingga sedang), yang membuat mereka lebih mudah ditangkap dan dijinakkan.
+                       <br><br>
+                        4. Fungsi dalam Game
+                        <br><br>
+                        Parasaur memiliki berbagai fungsi yang berguna, terutama bagi pemain baru atau yang sedang membangun markas:
+                        <br><br>
+                        Pengangkut Barang: Parasaur dapat membawa barang dengan cukup efisien karena kapasitas angkutnya yang lumayan besar. Ini sangat berguna saat pemain ingin mengumpulkan sumber daya seperti beri-berian, kayu, atau batu.
+                        Detektor Ancaman: Sebagai dinosaurus deteksi, Parasaur dapat membantu pemain mengetahui keberadaan musuh di sekitar area, yang membuatnya berguna dalam mempertahankan markas dari serangan musuh atau predator.
+                        Tunggang Pengumpul Berries: Parasaur dapat digunakan untuk mengumpulkan buah-buahan dari semak-semak, menjadikannya salah satu dinosaurus awal yang baik untuk pemain yang butuh persediaan makanan atau bahan penjinakan.
+                        5. Strategi dalam Pertarungan
+                        <br><br>
+                        Menghindari Pertempuran Langsung: Parasaur bukan dinosaurus yang kuat dalam pertarungan, sehingga lebih baik digunakan untuk melarikan diri jika ada ancaman atau menghindari musuh yang lebih kuat.
+                        Pelarian Cepat: Parasaur memiliki kecepatan lari yang cukup cepat, sehingga bisa membantu pemain melarikan diri dari situasi berbahaya atau saat dikejar oleh predator yang lebih kuat.
+                        <br><br>
+                        6. Kegunaan Setelah Dijinakkan
+                        <br><br>
+                        Setelah dijinakkan, Parasaur menjadi dinosaurus yang serba guna, terutama untuk tugas-tugas eksplorasi dan pengumpulan bahan:
+                        <br><br>
+                        Eksplorasi Awal: Karena mudah dijinakkan dan memiliki kecepatan yang lumayan, Parasaur sangat cocok untuk pemain baru yang ingin menjelajahi area dengan cepat dan aman.
+                        Pengumpul Bahan dan Buah-buahan: Parasaur bisa digunakan untuk mengumpulkan buah-buahan dan sumber daya ringan, yang penting dalam permainan awal untuk makanan dan bahan penjinakan.
+                        Peringatan Dini di Basis: Pemain bisa menempatkan Parasaur di dekat basis dan mengaktifkan mode alarmnya untuk memberi peringatan ketika ada musuh yang mendekat. Ini bisa sangat membantu untuk menjaga keamanan markas.
+                        7. Keunggulan dan Kekurangan
+                        <br><br>
+                        Keunggulan:
+                        Mudah dijinakkan dan cocok untuk pemain baru.
+                        Detektor musuh yang sangat baik dengan kemampuan alarm yang bermanfaat.
+                        Kapasitas angkut yang lumayan besar untuk dinosaurus kecil.
+                        Kecepatan yang cukup baik untuk melarikan diri dari bahaya.
+                        Kekurangan:
+                        Sangat lemah dalam pertarungan, tidak cocok untuk pertempuran.
+                        Tidak bisa mengumpulkan sumber daya berat seperti kayu atau batu dengan baik.
+                        </p>
+                   
+                 </div>
+        
+               <div class="dino">
+                    <div class="gambarpachy">
+                    <img src="parasaurus_g..png" >
+                    </div>
+               </div>
+        
+                <div class="logo">
+                    <img src="logoparasaur.webp" >
+                    <div class="teks-logo">PARASAUR </div>
+                </div>
+        
+                <div class="box-loading">
+                <div class="statisik">STATISIK PARASAUR</div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>  
+                        <div class="loading-bar bar-300 bar-green"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">400</span>
+                        <div class="loading-bar bar-400 bar-blue"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>
+                        <div class="loading-bar bar-300 bar-red"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">350</span>
+                        <div class="loading-bar bar-350 bar-orange"></div>
+                    </div>
+                    
+                    <div class="sidebox2">
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#013c03;;"></div>
+                            <p>Health</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color: #003561 ;"></div>
+                            <p>Devend</p>
+                        </div>
+                      
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:  #cc0e00;"></div>
+                            <p>Attack</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#fff700 ;"></div>
+                            <p>Speed</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                    <div class="habitat">
+                        <div class="peta">
+                        <img src="petaparasaurus1.png" alt="">
+                        <img src="petaparasaurus2.png" alt="">
+                        </div> 
+                        <div class="peta">
+                            <img src="petaparasaurus3.png" alt="">
+                            <img src="petaparasaurus4.png" alt="">
+                        </div>
+                        <div class="tekshabitat">
+                            <h3>HABITAT PARASAUR</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+
+            <div id="popup-pegomastax" class="popup">
+                <div class="popup-content">
+        
+                    <div class="sound-button-suara4">
+                        <button id="soundButton4" class="sound-button" onclick="toggleSound(4)"></button>
+                    </div>    
+        
+                    <button id="closePopup" class="close-btn" onclick="closePopup('popup-pegomastax')">&times;</button>
+
+                    <audio id="audioPlayer4" src="sounpegomastax.mp3"></audio>
+                   
+               
+                <div class="latar">
+                    <img src="bg1..png">
+                    <div class="teks">
+                    <p>
+                        Pegomastax dalam Ark: Survival Evolved adalah dinosaurus kecil omnivora yang sangat menyebalkan karena kemampuan mencuri item dari pemain atau dinosaurus lain. Meskipun ukurannya kecil, Pegomastax bisa menjadi ancaman yang serius jika dibiarkan begitu saja karena kebiasaannya yang suka mencuri. Berikut adalah penjelasan lengkap mengenai Pegomastax di Ark:
+<br><br>
+                            1. Habitat
+                            <br><br>
+                            Pegomastax biasanya ditemukan di hutan-hutan atau padang rumput, terutama di daerah yang tidak terlalu terbuka. Mereka sering muncul secara tiba-tiba dan menyerang pemain dengan cepat untuk mencuri barang-barang dari inventaris.
+                            <br><br>
+                            2. Kemampuan
+                            <br><br>
+                            Thief Ability (Kemampuan Mencuri): Pegomastax memiliki kemampuan alami untuk mencuri barang dari inventaris pemain atau dinosaurus yang ditunggangi. Ketika mereka menyerang, mereka akan mencuri item acak dari inventaris pemain dan menyimpannya di inventaris mereka sendiri.
+                            Pencurian Otomatis: Setelah mencuri barang, Pegomastax akan berlari menjauh dengan cepat. Barang yang dicuri tidak langsung hilang; pemain bisa mendapatkan kembali barang tersebut dengan menjinakkan atau membunuh Pegomastax yang telah mencurinya.
+                            Bertahan dengan Loot: Pegomastax akan mempertahankan item yang dicurinya sampai pemain berhasil menaklukkan atau mengambilnya kembali.
+                            <br><br>
+                            3. Cara Menjinakkan
+                            <br><br>
+                            Penjinakan Pasif: Pegomastax dapat dijinakkan dengan metode penjinakan pasif yang agak unik. Saat mereka mencoba mencuri dari pemain, jika mereka mencuri beri atau makanan favorit mereka (seperti Mejoberries atau buah-buahan lainnya), mereka akan langsung dijinakkan. Namun, ini bisa menjadi proses yang cukup acak dan membuat frustrasi.
+                            Metode Alternatif: Pemain juga dapat mencoba membuat mereka pingsan menggunakan bola bius atau panah bius sebelum memberi mereka beri atau makanan favorit untuk menjinakkan mereka secara lebih konvensional.
+                           <br><br>
+                            4. Fungsi dalam Game
+                            <br><br>
+                            Meskipun ukurannya kecil dan perilakunya menjengkelkan, Pegomastax bisa memiliki beberapa kegunaan setelah dijinakkan:
+                            <br><br>
+                            Dinosaurus Pencuri: Setelah dijinakkan, Pegomastax bisa digunakan untuk mencuri barang dari musuh atau pemain lain. Kemampuan alami mereka sebagai pencuri bisa dimanfaatkan dalam situasi PVP (Player vs. Player) untuk mencuri item dari pemain lawan tanpa mereka sadari.
+                            Peliharaan Penjaga Barang: Pegomastax juga bisa membawa item berharga. Jika pemain meninggal, mereka bisa memanfaatkan Pegomastax untuk menyimpan item tertentu yang mungkin lebih aman dibandingkan disimpan dalam inventaris pemain.
+                            <br><br>
+                            5. Strategi dalam Pertarungan
+                            <br><br>
+                            Serangan Cepat dan Pencurian: Dalam pertarungan, Pegomastax tidak memiliki kekuatan besar, tetapi kemampuan mereka untuk mencuri barang dapat mengganggu strategi musuh. Jika digunakan dalam kelompok, mereka bisa mengacaukan inventaris musuh, membuat mereka panik dan rentan terhadap serangan.
+                            Target Kecil dan Gesit: Pegomastax kecil dan gesit, membuat mereka sulit untuk dikenai serangan oleh dinosaurus besar atau pemain yang tidak waspada. Mereka sering menyerang secara mendadak dan lari setelah mencuri barang.
+                            <br><br>
+                            6. Kegunaan Setelah Dijinakkan
+                            <br><br>
+                            Setelah dijinakkan, Pegomastax bisa dimanfaatkan untuk beberapa hal yang unik:
+                            <br><br>
+                            Mencuri dari Pemain atau Musuh: Salah satu kegunaan utama Pegomastax setelah dijinakkan adalah kemampuan mereka untuk mencuri barang dari pemain lain. Ini bisa sangat berguna dalam pertempuran PVP atau bahkan dalam situasi bertahan hidup, di mana mereka bisa mengambil sumber daya dari pemain lawan.
+                            Penyimpan Barang Berharga: Pegomastax dapat membawa item penting dan melarikan diri dari situasi berbahaya, menjadikannya peliharaan yang bermanfaat untuk menjaga barang berharga.
+                            <br><br>
+                            7. Keunggulan dan Kekurangan
+                            <br>
+                            Keunggulan:
+                            <br><br>
+                            Kemampuan untuk mencuri barang dari pemain lain sangat berguna dalam pertempuran PVP.
+                            Gesit dan kecil, sulit untuk ditangkap atau dilawan.
+                            Bisa menjadi pengalih perhatian saat menyerang musuh.
+                            Kekurangan:
+                            <br><br>
+                            Sangat lemah dalam pertarungan, hampir tidak memiliki kekuatan serangan.
+                            Mencuri barang secara acak, sehingga tidak bisa diatur dengan baik.
+                            Dapat menjadi masalah besar bagi pemain yang tidak waspada.
+                            <br><br>
+                            8. Tips Menghadapi Pegomastax
+                            <br><br>
+                            Selalu Waspada: Jika berada di daerah yang banyak Pegomastax, selalu waspada dengan inventaris kamu. Jangan membawa terlalu banyak barang berharga yang bisa dicuri oleh mereka.
+                            Menggunakan Bola untuk Menangkap: Karena Pegomastax gesit dan suka lari setelah mencuri, menggunakan bola jebakan untuk menghentikan gerakan mereka adalah cara terbaik untuk menangkap atau melawan mereka.
+                            Mencegah Pencurian: Untuk mencegah barang-barang penting dicuri, pastikan selalu membawa beri di slot utama inventaris. Jika Pegomastax menyerang, mereka lebih mungkin mencuri beri daripada barang penting lainnya.
+                    </p>
+                 </div>
+        
+               <div class="dino">
+                    <div class="gambarpegomastax">
+                    <img src="pegomastax_g.png" alt="Baryonyx">
+                    </div>
+               </div>
+        
+                <div class="logo">
+                    <img src="logopegomastax.webp" alt="Logo Baryonyx">
+                    <div class="teks-logo"> PEGOMASTAX</div>
+                </div>
+        
+                <div class="box-loading">
+                <div class="statisik">STATISIK PEGOMASTAX</div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>  
+                        <div class="loading-bar bar-300 bar-green"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">400</span>
+                        <div class="loading-bar bar-400 bar-blue"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>
+                        <div class="loading-bar bar-300 bar-red"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">350</span>
+                        <div class="loading-bar bar-350 bar-orange"></div>
+                    </div>
+                    
+                    <div class="sidebox2">
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#013c03;;"></div>
+                            <p>Health</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color: #003561 ;"></div>
+                            <p>Devend</p>
+                        </div>
+                      
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:  #cc0e00;"></div>
+                            <p>Attack</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#fff700 ;"></div>
+                            <p>Speed</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                    <div class="habitat">
+                        <div class="peta">
+                        <img src="petapegomastax1.png" alt="">
+                        <img src="petapegomastax2.png" alt="">
+                        </div> 
+                        <div class="peta">
+                            <img src="petapegomastax3.png" alt="">
+                            <img src="petapegamastax4.png" alt="">
+                        </div>
+                        <div class="tekshabitat">
+                            <h3>HABITAT PEGOMASTAX</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="popup-mosasaurus" class="popup">
+                <div class="popup-content">
+            
+                    <div class="sound-button-suara5">
+                        <button id="soundButton5" class="sound-button" onclick="toggleSound(5)"></button>
+                    </div>    
+
+                    <button id="closePopup" class="close-btn" onclick="closePopup('popup-mosasaurus')">&times;</button>
+        
+                    <audio id="audioPlayer5" src="soundmosaurus.mp3"></audio>
+                   
+               
+                <div class="latar">
+                    <img src="bg1..png">
+                    <div class="teks">
+                 <p>
+                    Mosasaurus dalam Ark: Survival Evolved adalah salah satu dinosaurus terbesar dan paling kuat yang dapat ditemukan di perairan dalam game. Dikenal karena ukurannya yang besar dan kemampuan bertarung yang hebat, Mosasaurus menjadi salah satu pilihan utama untuk eksplorasi laut dan pertempuran di dalam air.
+                    <br><br>
+                1. Habitat
+                <br><br>
+                Mosasaurus biasanya ditemukan di lautan dalam, sering menjelajahi wilayah perairan yang lebih dalam dan jauh dari pantai. Mereka dapat ditemukan di berbagai peta, termasuk The Island dan Aberration.
+                    <br><br>
+                2. Kemampuan
+                <br><br>
+                Serangan Maut: Mosasaurus memiliki serangan fisik yang kuat, yang dapat melukai makhluk lain dengan cepat. Serangannya sangat efektif melawan makhluk air lainnya, seperti ikan dan bahkan dinosaurus besar lainnya.
+                Kemampuan Menenggelamkan: Mosasaurus dapat menyeret makhluk kecil atau sedang ke dalam air, membuat mereka tidak bisa melarikan diri. Ini sangat berguna saat berburu makhluk lain.
+                Gerakan Cepat di Air: Meskipun ukurannya besar, Mosasaurus memiliki kecepatan yang mengesankan saat berenang, memungkinkan mereka untuk mengejar mangsa atau melarikan diri dari ancaman.
+                <br><br>
+                3. Cara Menjinakkan
+                <br><br>
+                Metode Pingsan: Untuk menjinakkan Mosasaurus, pemain perlu membuatnya pingsan. Hal ini biasanya dilakukan dengan menggunakan panah bius atau bola bius. Namun, karena ukurannya yang besar dan agresif, pertempuran dengan Mosasaurus bisa sangat berbahaya.
+                Makanan Favorit: Setelah pingsan, berikan Mosasaurus daging ikan (terutama Prime Fish Meat) untuk mempercepat proses penjinakan.
+                <br><br>
+                4. Fungsi dalam Game
+                <br><br>
+                Mosasaurus memiliki banyak kegunaan setelah dijinakkan:
+                <br><br>
+                Tunggang yang Kuat: Setelah dijinakkan, Mosasaurus bisa digunakan sebagai kendaraan untuk menjelajahi laut. Mereka sangat kuat dan dapat melindungi pemain dari predator laut lainnya.
+                Buru Ikan dan Makhluk Lain: Dengan kemampuan serangan yang kuat, Mosasaurus sangat efektif untuk berburu ikan dan makhluk air lainnya, memberikan sumber makanan yang baik bagi pemain.
+                Transportasi dan Ekspedisi: Mosasaurus bisa digunakan untuk menjelajahi area luas di laut, serta mengangkut pemain dan barang-barang dalam perjalanan laut.
+                <br><br>
+                5. Strategi dalam Pertarungan
+                <br><br>
+                Pertarungan Laut: Mosasaurus sangat cocok untuk pertempuran di dalam air. Pemain bisa menggunakan mereka untuk menyerang musuh di bawah air dengan efektif, terutama dalam pertempuran PVP.
+                Menggunakan Gerakan Cepat: Dalam pertarungan, kemampuan untuk bergerak cepat dan menyerang dari berbagai arah memberikan keunggulan besar di dalam air.
+                <br><br>
+                6. Kegunaan Setelah Dijinakkan
+                <br><br>
+                Perlindungan dari Predator Laut: Setelah dijinakkan, Mosasaurus menjadi pelindung yang kuat dari makhluk laut lainnya, seperti Megalodon atau Eel.
+                Penyimpanan Barang: Mosasaurus memiliki kapasitas penyimpanan yang cukup besar, sehingga pemain bisa menyimpan barang-barang berharga saat melakukan perjalanan di laut.
+                <br><br>
+                7. Keunggulan dan Kekurangan
+                <br><br>
+                Keunggulan:
+                <br><br>
+                Sangat kuat dalam pertarungan dan dapat mengalahkan makhluk besar lainnya.
+                Kapasitas penyimpanan yang baik untuk barang-barang.
+                Kemampuan gerak yang baik di air, memungkinkan eksplorasi yang efisien.
+                Kekurangan:
+                <br><br>
+                Meskipun kuat, Mosasaurus tetap rentan terhadap serangan dari beberapa predator laut lainnya jika tidak diawasi.
+                Penjinakan bisa berbahaya, terutama jika pemain tidak siap menghadapi serangan balik.
+                 </p>
+                </div>
+        
+               <div class="dino">
+                <div class="gambarmosa">
+                    <img src="mosasaurus_g.png" alt="Baryonyx">
+                </div>    
+               </div>
+        
+                <div class="logo">
+                    <img src="logoMosasaurus.webp" alt="Logo Baryonyx">
+                    <div class="teks-logo">MOSASAURUS</div>
+                </div>
+        
+                <div class="box-loading">
+                <div class="statisik">STATISIK MOSASAURUS</div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>  
+                        <div class="loading-bar bar-300 bar-green"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">400</span>
+                        <div class="loading-bar bar-400 bar-blue"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>
+                        <div class="loading-bar bar-300 bar-red"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">350</span>
+                        <div class="loading-bar bar-350 bar-orange"></div>
+                    </div>
+                    
+                    <div class="sidebox2">
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#013c03;;"></div>
+                            <p>Health</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color: #003561 ;"></div>
+                            <p>Devend</p>
+                        </div>
+                      
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:  #cc0e00;"></div>
+                            <p>Attack</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#fff700 ;"></div>
+                            <p>Speed</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                    <div class="habitat">
+                        <div class="peta">
+                        <img src="petamosasaurus1.png" alt="">
+                        <img src="petamosasaurus2.png" alt="">
+                        </div> 
+                        <div class="peta">
+                            <img src="petamosasaurus3.png" alt="">
+                            <img src="petamosasaurus4.png" alt="">
+                        </div>
+                        <div class="tekshabitat">
+                            <h3>HABITAT MOSASAURUS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="popup-arthropluera" class="popup">
+                <div class="popup-content">
+            
+                    <div class="sound-button-suara6">
+                        <button id="soundButton6" class="sound-button" onclick="toggleSound(6)"></button>
+                    </div>    
+
+                    <button id="closePopup" class="close-btn" onclick="closePopup('popup-arthropluera')">&times;</button>
+        
+                    <audio id="audioPlayer6" src="soundArthropleura.mp3"></audio>
+                   
+               
+                <div class="latar">
+                    <img src="bg1..png">
+                    <div class="teks">
+                  <p>
+     
+               Arthropleura dalam Ark: Survival Evolved adalah makhluk arthropoda raksasa yang menyerupai serangga atau kelabang. Dikenal karena penampilannya yang unik dan kemampuannya, Arthropleura adalah makhluk yang sering ditemukan di daerah hutan dan gua. Berikut adalah penjelasan lengkap mengenai Arthropleura:
+               <br><br>     
+               1. Habitat
+               <br><br>
+                    Arthropleura biasanya ditemukan di lingkungan yang lembap, seperti hutan, gua, dan area basah. Mereka lebih suka tempat-tempat yang banyak vegetasi dan bisa sering ditemui merayap di tanah atau menempel di dinding gua.
+                    <br><br>
+                    2. Kemampuan
+                    <br><br>
+                    Serangan Beracun: Arthropleura memiliki kemampuan untuk menyerang dengan serangan beracun yang bisa mengurangi kesehatan dan memberikan efek pingsan pada makhluk yang diserangnya. Ini menjadikannya makhluk yang berbahaya, terutama dalam pertarungan.
+                    Kekuatan di Ruang Sempit: Dalam pertempuran, Arthropleura sangat efektif di ruang sempit atau gua, di mana ia dapat bergerak dengan gesit dan menyerang musuh yang tidak bisa bergerak dengan leluasa.
+                    Menggigit dan Menghisap Darah: Arthropleura juga memiliki kemampuan untuk menghisap darah dari makhluk yang diserangnya, menambah efek serangannya.
+                    <br><br>
+                    3. Cara Menjinakkan
+                    <br><br>
+                    Penjinakan dengan Metode Pingsan: Untuk menjinakkan Arthropleura, pemain perlu membuatnya pingsan dengan menggunakan panah bius atau bola bius. Mengingat serangan beracunnya, pemain harus berhati-hati saat mendekatinya.
+                    Memberi Makan: Setelah pingsan, berikan Arthropleura daging (terutama daging yang berkualitas lebih baik seperti Prime Meat) untuk mempercepat proses penjinakan.
+                    <br><br>
+                    4. Fungsi dalam Game
+                    <br><br>
+                    Setelah dijinakkan, Arthropleura memiliki beberapa kegunaan:
+                    <br><br>
+                    Dinosaurus Serangga: Arthropleura dapat digunakan untuk menyerang makhluk lain, berfungsi sebagai pelindung bagi pemain.
+                    <br><br>
+                    Pengumpulan Bahan: Arthropleura dapat mengumpulkan kerangka dan daging dari makhluk lain, serta memiliki kemampuan untuk mengumpulkan item seperti kayu dan serat dari tumbuhan.
+                    <br><br>
+                    5. Strategi dalam Pertarungan
+                    <br><br>
+                    Menggunakan Kecepatan dan Mobilitas: Arthropleura bisa bergerak dengan cepat di area sempit, memberikan keuntungan saat bertarung melawan musuh di gua atau hutan.
+                    Serangan Beracun: Pemain dapat memanfaatkan serangan beracunnya untuk mengurangi kesehatan musuh secara perlahan dan mengganggu pergerakan mereka.
+                    <br><br>
+                    6. Kegunaan Setelah Dijinakkan
+                    <br><br>
+                    Penyerang Taktis: Arthropleura dapat digunakan dalam strategi penyerangan, terutama untuk menghancurkan makhluk kecil atau sedang dengan serangan beracun.
+                    Pengumpul Sumber Daya: Setelah dijinakkan, Arthropleura bisa membantu mengumpulkan sumber daya dengan efisiensi, baik untuk bahan bangunan maupun makanan.
+                    <br><br>
+                    7. Keunggulan dan Kekurangan
+                    <br><br>
+                    Keunggulan:
+                    <br><br>
+                    Kemampuan beracun yang bisa melemahkan musuh.
+                    Efektivitas dalam ruang sempit membuatnya menjadi makhluk yang baik untuk gua.
+                    Dapat mengumpulkan sumber daya dengan efisien.
+                    <br><br>
+                    Kekurangan:
+                    <br><br>
+                    Rentan terhadap serangan dari makhluk besar dan predator yang lebih kuat.
+                    Mungkin sulit untuk dijinakkan bagi pemain baru, terutama karena serangannya yang berbahaya.
+                  </p>
+                 </div>
+        
+               <div class="dino">
+                <div class="gambararthro">
+                    <img src="arthropluera_g.png" alt="Baryonyx">
+                </div>    
+               </div>
+        
+                <div class="logo">
+                    <img src="logoArthropluera.webp" alt="Logo Baryonyx">
+                    <div class="teks-logo">ARTHROPLUERA</div>
+                </div>
+        
+                <div class="box-loading">
+                <div class="statisik">STATISIK ARTHROPLUERA</div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>  
+                        <div class="loading-bar bar-300 bar-green"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">400</span>
+                        <div class="loading-bar bar-400 bar-blue"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>
+                        <div class="loading-bar bar-300 bar-red"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">350</span>
+                        <div class="loading-bar bar-350 bar-orange"></div>
+                    </div>
+                    
+                    <div class="sidebox2">
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#013c03;;"></div>
+                            <p>Health</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color: #003561 ;"></div>
+                            <p>Devend</p>
+                        </div>
+                      
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:  #cc0e00;"></div>
+                            <p>Attack</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#fff700 ;"></div>
+                            <p>Speed</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                    <div class="habitat">
+                        <div class="peta">
+                        <img src="petaarthropluera1.png" alt="">
+                        <img src="petaarthropluera2.png" alt="">
+                        </div> 
+                        <div class="peta">
+                            <img src="petaarthropluera3.png" alt="">
+                            <img src="petaarthropluera4.png" alt="">
+                        </div>
+                        <div class="tekshabitat">
+                            <h3>HABITAT ARTHROPLUERA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="popup-rex" class="popup">
+                <div class="popup-content">
+        
+        
+                    <div class="sound-button-suara7">
+                        <button id="soundButton7" class="sound-button" onclick="toggleSound(7)"></button>
+                    </div>
+        
+                    <button id="closePopup" class="close-btn" onclick="closePopup('popup-rex')">&times;</button>
+                
+                    <audio id="audioPlayer7" src="soundrex.mp3"></audio>
+                
+        
+                <div class="latar">
+                    <img src="bg1..png">
+                    <div class="teks">
+                        <p>
+                            Rex (Tyrannosaurus Rex) dalam Ark: Survival Evolved adalah salah satu predator darat terbesar dan terkuat. Dinosaurus ini sangat populer di kalangan pemain karena kekuatan, ukuran, dan kemampuan bertarungnya yang luar biasa. Rex sering menjadi pilihan utama untuk pertarungan bos, PVP, dan menjaga wilayah. Berikut penjelasan lengkap tentang Rex dalam Ark:
+                            <br><br>
+                            1. Habitat
+                            <br><br>
+                            Rex sering ditemukan di berbagai area, terutama di daerah pegunungan, dataran tinggi, dan hutan yang lebih luas. Mereka biasanya berkeliaran sendirian atau dalam kelompok kecil dan berburu makhluk lain di sekitarnya.
+                            <br><br>
+                            2. Kemampuan
+                            <br><br>
+                            Kekuatan Serangan yang Luar Biasa: Rex dikenal karena serangan fisiknya yang sangat kuat. Dengan gigitan yang mematikan, Rex dapat dengan mudah menghancurkan dinosaurus besar atau makhluk lain dalam beberapa serangan saja.
+                            HP dan Ketahanan Tinggi: Rex memiliki hit points (HP) yang sangat besar, yang membuatnya sangat sulit untuk dikalahkan dalam pertempuran. Ketahanannya yang tinggi juga membuatnya bisa bertahan dalam pertempuran panjang.
+                            Tunggang yang Tangguh: Setelah dijinakkan, Rex menjadi salah satu tunggangan paling kuat dalam permainan. Kemampuan serangannya serta daya tahannya sangat membantu dalam pertarungan, baik melawan makhluk liar atau dalam situasi PVP.
+                            <br><br>
+                            3. Cara Menjinakkan
+                            <br><br>
+                            Metode Pingsan: Rex dijinakkan dengan membuatnya pingsan menggunakan senjata bius, seperti panah bius atau peluru bius. Karena HP Rex yang tinggi, proses ini bisa memakan waktu lama, dan pemain harus siap dengan banyak amunisi.
+                            Menggunakan Bola Jaring (Net Projectiles): Untuk menjinakkan Rex dengan lebih mudah, pemain bisa menggunakan bola jaring untuk menahan Rex sementara sebelum menembaknya dengan panah atau peluru bius.
+                            Makanan Favorit: Setelah Rex pingsan, pemain dapat memberinya Prime Meat atau Kibble khusus Rex untuk mempercepat proses penjinakan. Kibble Rex adalah pilihan terbaik untuk penjinakan yang cepat dan efisien.
+                            <br><br>
+                            4. Fungsi dalam Game
+                            <br><br>
+                            Rex memiliki banyak kegunaan setelah dijinakkan, termasuk:
+                            <br><br>    
+                            Pertarungan Bos: Rex adalah salah satu dinosaurus utama yang digunakan untuk melawan bos dalam game. Kekuatan dan daya tahannya membuatnya ideal untuk menghadapi musuh kuat seperti Dragon atau Broodmother.
+                            Pertahanan dan Serangan PVP: Rex adalah dinosaurus yang sangat populer dalam pertempuran antar pemain (PVP). Mereka dapat digunakan untuk menyerang markas musuh atau melindungi basis dari serangan lawan.
+                            Pengumpul Daging: Karena kekuatannya, Rex juga efektif untuk berburu makhluk lain dan mengumpulkan daging, baik daging biasa maupun daging prime.
+                            <br><br>
+                            5. Strategi dalam Pertarungan
+                            <br><br>
+                            Serangan Langsung: Rex sangat efektif dalam pertempuran jarak dekat. Pemain bisa langsung menggunakan Rex untuk menyerang musuh atau dinosaurus lain dengan gigitan kuatnya.
+                            Menerjang Lawan: Dalam pertempuran PVP atau PVE, Rex dapat digunakan untuk menerjang langsung ke musuh, menghancurkan struktur atau dinosaurus dengan cepat.
+                            Berkoordinasi dengan Pemain Lain: Dalam pertarungan melawan bos atau pertempuran skala besar, beberapa Rex dapat bekerja sama untuk mengalahkan musuh yang lebih kuat.
+                           <br><br>
+                            6. Kegunaan Setelah Dijinakkan
+                            <br><br>
+                            Eksplorasi dan Berburu: Setelah dijinakkan, Rex sangat berguna untuk eksplorasi, terutama di area berbahaya yang dipenuhi dengan predator lain. Mereka juga ideal untuk berburu dinosaurus besar dan mengumpulkan sumber daya.
+                            Pertahanan Basis: Rex bisa diletakkan sebagai penjaga basis, memastikan markas tetap aman dari serangan makhluk liar atau pemain lain.
+                            Pertarungan Bos dan Tek Tier: Rex banyak digunakan oleh pemain untuk pertarungan bos dan mendapatkan akses ke Tek Tier (teknologi tingkat lanjut di Ark). Karena kekuatan dan ketahanannya, Rex adalah pilihan utama untuk melawan bos.
+                            <br><br>
+                            7. Keunggulan dan Kekurangan
+                            <br><br>
+                            Keunggulan:
+                            <br><br>
+                            Kekuatan serangan yang luar biasa, dapat menghancurkan dinosaurus besar dan musuh dalam waktu singkat.
+                            HP yang sangat tinggi, menjadikannya salah satu dinosaurus paling tahan dalam pertempuran.
+                            Cocok untuk pertarungan bos dan skenario PVP.
+                            <br><br>
+                            Kekurangan:
+                            <br><br>
+                            Ukurannya yang besar membuatnya tidak cocok untuk eksplorasi di tempat yang sempit, seperti gua kecil atau area berbatu.
+                            Memiliki kecepatan yang relatif lambat dibandingkan dengan dinosaurus lain, membuatnya sedikit lamban dalam mengejar musuh yang cepat.
+                            Rex membutuhkan banyak makanan setelah dijinakkan untuk mempertahankan kesehatannya, terutama saat sering digunakan dalam pertempuran.
+                    </p>
+                </div>>
+        
+               <div class="dino">
+                <div class="gambarrex">
+                <img src="rex__g.png" alt="Baryonyx">
+                </div>
+               </div>
+        
+                <div class="logo">
+                    <img src="logorex.webp" alt="Logo Baryonyx">
+                    <div class="teks-logo">REX</div>
+                </div>
+        
+                <div class="box-loading">
+                <div class="statisik">STATISIK REX</div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>  
+                        <div class="loading-bar bar-300 bar-green"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">400</span>
+                        <div class="loading-bar bar-400 bar-blue"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">300</span>
+                        <div class="loading-bar bar-300 bar-red"></div>
+                    </div>
+                    <div class="loading-bar-wrapper">
+                        <span class="loading-text">350</span>
+                        <div class="loading-bar bar-350 bar-orange"></div>
+                    </div>
+                    
+                    <div class="sidebox2">
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#013c03;;"></div>
+                            <p>Health</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color: #003561 ;"></div>
+                            <p>Devend</p>
+                        </div>
+                      
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:  #cc0e00;"></div>
+                            <p>Attack</p>
+                        </div>
+                        <div class="boxstatisik">
+                            <div class="kotak" style="background-color:#fff700 ;"></div>
+                            <p>Speed</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                    <div class="habitat">
+                        <div class="peta">
+                        <img src="petarex1.png" alt="">
+                        <img src="petarex2.png" alt="">
+                        </div> 
+                        <div class="peta">
+                            <img src="petarex3.png" alt="">
+                            <img src="petarex4.png" alt="">
+                        </div>
+                        <div class="tekshabitat">
+                            <h3>HABITAT REX</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

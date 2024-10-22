@@ -1,0 +1,512 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        overflow-x: hidden;
+        
+}
+
+h1{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bg img{
+    width: 580px;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.bg{
+    background: url(bg3.jpg)
+    no-repeat center center/cover;
+    position: fixed;
+    top: -30px;
+    left: -30px;
+    width: 230vh;
+    height: 110vh;
+    z-index: -1;
+}
+.sidebox{
+    display: flex;
+}
+
+#Baryonyx{
+    background-color: rgb(0, 0, 0);
+    background-image: url(Baryonyx.webp);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#parasaur{
+    background-color: rgb(0, 0, 0);
+    background-image: url(Parasaur.webp);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#pachy{
+    background-color: rgb(0, 0, 0);
+    background-image: url(pachy.jpg);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#pegomastax{
+    background-color: rgb(0, 0, 0);
+    background-image: url(pegomastax.jpg);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#mosasaurus{
+    background: rgb(0, 0, 0);
+    background-image: url(mosasaurus.jpg);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#arthropluera{
+    background-color: rgb(0, 0, 0);
+    background-image: url(arthropluera.jpg);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+#rex{
+    background-color: rgb(0, 0, 0);
+    background-image: url(rex.webp);
+    background-size: 100%;
+    bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+.latar img {
+    width: 190vh;
+    height: 700px;
+    align-items: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+}
+
+.teks {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    font-size: 10px;
+    color: #000000;
+    z-index: 2;
+    width: 360px;  /* Lebar maksimal kontainer */
+    height: 170px; /* Tinggi maksimal kontainer */
+    overflow-y: scroll; /* Mengaktifkan scroll vertikal */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e3bb88;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    padding: 7px;
+    z-index: 2;
+    background-color: white; /* Added box to logo */
+    border-radius: 0px;
+}
+
+.teks-logo{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 25px;
+    color: #f0f0f0;
+    padding:19px;
+    z-index: 2;
+    background-color: rgb(127, 127, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.dino {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    padding: 100px;
+    z-index: 1;
+}
+
+.dino img {
+    width: 530px;
+    height: auto;
+}
+
+.gambarpachy img{
+    width: 530px;
+    height: 200px;
+
+}
+
+.gambarpegomastax img{
+    width: 530px;
+    height: 200px;
+}
+
+.gambarmosa img{
+    width: 530px;
+    z-index: 2;
+}
+
+.gambararthro img{
+    width: 530px;
+    height: 180px;
+}
+
+.gambarrex img{
+    width: 530px;
+    height: 220px;
+}
+
+.box{
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 225px;
+    margin: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 8px 9px rgba(255, 255, 255, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.8s ease;
+    cursor: pointer;
+   
+}
+
+.box:nth-of-type(even){
+    transform: translateX(400%);
+}
+
+.box.show{
+    transform: translateX(0);
+}
+
+.box:hover{
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.box:active{
+    transform: scale(1.0);
+}
+
+.box  h2 {
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0px;
+    padding: 0px;
+    background: rgba(142, 147, 112, 0.7);
+    border-radius: 5px;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.box:hover.box h2{
+    opacity: 1;
+    transition: 0.7s;
+}
+
+/* Popup styling */
+.popup {
+    display: none; /* Sembunyikan popup secara default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Latar belakang gelap */
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Tampilkan di atas elemen lain */
+}
+
+/* Konten popup */
+.popup-content {
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+/* Tombol tutup popup (X) */
+.close-btn {
+    position: absolute;
+    top: 90rem;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+    padding: 10px;
+}
+
+.close-btn img{
+ width: 20px;
+ height: 20px;
+}
+
+.box-loading {
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+    background-color: #e3bb88;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.loading-bar-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.loading-text {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.loading-bar {
+    height: 15px;
+    background-color: #ddd;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.loading-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    animation: fill 2s ease-in-out forwards;
+}
+
+@keyframes fill {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.bar-300 {
+    width: 300px;
+}
+
+.bar-400 {
+    width: 400px;
+}
+
+.bar-350 {
+    width: 350px;
+}
+
+.bar-green::before {
+    background-color: #013c03;
+}
+
+.bar-blue::before {
+    background-color: #003561;
+}
+
+.bar-red::before {
+    background-color: #cc0e00;
+}
+
+.bar-orange::before {
+    background-color: #fff700;
+}
+
+.statisik{
+  text-align: center  ;
+}
+
+.sidebox2{
+    display: flex;
+}
+
+
+.statisik{
+    text-align: center;
+}
+.boxstatisik {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.kotak{
+    width: 10px;
+    height: 10px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+p {
+    margin: 0px;
+}
+
+
+.peta{
+    display: flex;
+}
+.habitat{
+    position: absolute;
+    top: 8rem;
+    left: 550px;
+    padding: 100px;
+    z-index: 1;
+}
+
+.tekshabitat{
+    text-align: center;
+}
+
+.peta img{
+   width: 13rem;
+   height: 10rem;
+}
+
+.sound-button-suara1 {
+    position: absolute; /* Atur posisi absolut */
+    top: 24px; /* Jarak dari atas */
+    left: 25rem; /* Jarak dari kanan */
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.sound-button-suara2{
+    position: absolute; 
+    top: 24px; /* Jarak dari atas */
+    left: 22rem; /* Jarak dari kanan */
+    display: flex;
+    gap: 20px;
+    z-index: 2; 
+}
+
+.sound-button-suara3{
+    position: absolute; 
+    top: 24px; 
+    left: 24rem; 
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+.sound-button-suara4{
+    position: absolute;
+    top: 24px; 
+    left: 27rem; 
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.sound-button-suara5{
+    position: absolute;
+    top: 24px; 
+    left: 27rem; 
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.sound-button-suara6{
+    position: absolute;
+    top: 24px; 
+    left: 28rem; 
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.sound-button-suara7{
+    position: absolute;
+    top: 24px; 
+    left: 22rem; 
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.sound-button {
+    width: 60px;
+    height: 60px;
+    background-image: url('buttonplay\ \(2\).png');
+    background-size: cover;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.sound-button.playing {
+    background-image: url('butonstop.png');
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(255, 136, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 90px;
+    line-height: 0.8;
+}
+
+.sound-button:hover{
+    transform: scale(1.1);
+}
+
+.sound-button:active{
+    transform: scale(1.0);
+}
+
+.close-btn:hover{
+    transform: scale(1.1);
+}
